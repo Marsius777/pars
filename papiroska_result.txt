@@ -1,0 +1,1 @@
+{"Сделано в СССР":[{"name":"Тархун","img":"\/\/static.xn--80aaxitdbjk.xn--p1ai\/shop\/products\/29\/04\/10429\/images\/136451\/136451.tarkhun---sdelano-v-sssr.500x0.jpg","price":"450","amounts":{"nic":[],"ob":["60мл"]},"rate":{"count":"1","value":"5.00"}}]}

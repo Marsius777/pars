@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="711fa62d-40ec-4a6c-b2b2-13b76b7035ee" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload_real.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-659">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="n#getLoader#0;n#ComposerAutoloaderInitecd4bbd0df1c3b8e7fc5f9bdb8aa0c9a#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="214" column="20" lean-forward="false" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+              <folding>
+                <element signature="e#3057#3350#0#PHP" expanded="true" />
+                <element signature="e#3558#4021#0#PHP" expanded="true" />
+                <element signature="e#4442#4577#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractNode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/AbstractNode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="363" column="20" lean-forward="false" selection-start-line="363" selection-start-column="20" selection-end-line="363" selection-end-column="20" />
+              <folding>
+                <element signature="e#7708#8079#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="openssl.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/openssl/openssl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="1057" column="9" lean-forward="false" selection-start-line="1057" selection-start-column="9" selection-end-line="1057" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Curl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Curl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kint.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/kint-php/kint/src/Kint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+              <folding>
+                <element signature="n#dump#0;n#Kint#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <marker date="1509020767004" expanded="true" signature="4645:4836" ph="..." />
+                <marker date="1509020767004" expanded="true" signature="4653:4763" ph="..." />
+                <marker date="1509020767004" expanded="true" signature="4771:4828" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init_helpers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/kint-php/kint/init_helpers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_html_dom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+              <folding>
+                <element signature="n#first_child#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
+                <element signature="n#find#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
+                <element signature="n#parse_selector#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
+                <element signature="n#__construct#0;n#simple_html_dom#0;n#!!top" expanded="true" />
+                <element signature="n#find#0;n#simple_html_dom#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard_1.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="766" column="58" lean-forward="false" selection-start-line="766" selection-start-column="58" selection-end-line="766" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="papiroska_result.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/papiroska_result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$max_depth</find>
+      <find>n find(</find>
+      <find>\/\/ Один поставщик\n\$categoryHtml \= file_get_html\(\$siteUrl \. \'\/category\/greenfog\-italian\-tobacco\/\'\)\;\n\$items \= \$html\-\&gt;find\(\'div\.pr\-title a\'\)\;\n  \/\/Ссылка на каждую жижу\nforeach \(\$items as \$itemUrl\) \{\n\	\$html \= file_get_html\(\$siteUrl \. \$itemUrl\)\;\n\	\$eJuice \= \$eJuicePreset\;\n\	\/\/Берем данные\n\	\$name \= \$html\-\&gt;find\(\'\.card\-desc span\'\, 0\)\;\n\	if \(count\(\$name\) \&gt; 0\)\n\	\	\$eJuice\[\'name\'\] \= \$name\-\&gt;innertext\; \/\/Название\n\	\$img \= \$html\-\&gt;find\(\'\.product\-card a\.prd_image img\'\, 0\)\;\n\	if \(count\(\$img\) \&gt; 0\)\n\	\	\$eJuice\[\'img\'\] \= \$img\-\&gt;src\; \/\/Картинка\n\	\$price \= \$html\-\&gt;find\(\'\.product\-price\-value\'\, 0\)\;\n\	if \(count\(\$price\) \&gt; 0\)\n\	\	\$eJuice\[\'price\'\] \= \$price\-\&gt;innertext\; \/\/Цена\n\	\n\	\$optionsCount \= \$html\-\&gt;find\(\'div\.options \.sku\-feature\'\)\;\n\	\n\	if \(count\(\$optionsCount\) \&gt; 0\) \{\n\	\	if \(count\(\$optionsCount\) \=\= 1\) \{\n\	\	\	\$amounts \= \$html\-\&gt;find\(\'div\.options \.sku\-feature option\'\)\;\n\	\	\	if \(count\(\$amounts\) \&gt; 0\)\n\	\	\	\	foreach \(\$amounts as \$amount\)\n\	\	\	\	\	\$eJuice\[\'amounts\'\]\[\'ob\'\]\[\] \= \$amount\-\&gt;innertext\; \/\/Объемы\n\	\	\} elseif \(count\(\$optionsCount\) \=\= 2\) \{\n\	\	\	\$nic \= \$html\-\&gt;find\(\'div\.options \.sku\-feature\'\, 0\)\-\&gt;children\;\n\	\	\	if \(count\(\$nic\) \&gt; 0\)\n\	\	\	\	foreach \(\$nic as \$n\)\n\	\	\	\	\	\$eJuice\[\'amounts\'\]\[\'nic\'\]\[\] \= \$n\-\&gt;innertext\; \/\/Никотин\n\	\	\	\n\	\	\	\$ob \= \$html\-\&gt;find\(\'div\.options \.sku\-feature\'\, 1\)\-\&gt;children\;\n\	\	\	if \(count\(\$ob\) \&gt; 0\)\n\	\	\	\	foreach \(\$ob as \$o\)\n\	\	\	\	\	\$eJuice\[\'amounts\'\]\[\'ob\'\]\[\] \= \$o\-\&gt;innertext\; \/\/Объемы\n\	\	\}\n\	\}\n\	\n\	\n\	\$rateCount \= \$html\-\&gt;find\(\'div\.rate\-amount\'\, 0\)\;\n\	if \(count\(\$rateCount\) \&gt; 0\)\n\	\	\$eJuice\[\'rate\'\]\[\'count\'\] \= str_replace\(\[\'\(\'\, \'\)\'\]\, \'\'\, trim\(\$rateCount\-\&gt;innertext\)\)\; \/\/Рейтинг кол\-во участников\n\	\$rateValue \= \$html\-\&gt;find\(\'meta\[itemprop\=ratingValue\]\'\, 0\)\;\n\	if \(count\(\$rateValue\) \&gt; 0\)\n\	\	\$eJuice\[\'rate\'\]\[\'value\'\] \= \$rateValue\-\&gt;content\; \/\/Рейтинг звезд\n\	\n\	\n\}</find>
+      <find>$html</find>
+      <find>first_child</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>$itmeHtml</replace>
+      <replace>$itemHtml</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vendor/php-html-parser" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Curl.php" />
+        <option value="$PROJECT_DIR$/app/Parser.php" />
+        <option value="$PROJECT_DIR$/vendor/kint-php/kint/init_helpers.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/papiroska_result.txt" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paquettg/string-encode" />
+      <path value="$PROJECT_DIR$/vendor/paquettg/php-html-parser" />
+      <path value="$PROJECT_DIR$/vendor/kint-php/kint" />
+      <path value="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vape_parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vape_parser" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vape_parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vape_parser" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="PHPHtmlParser/Curl.php&#9;FILE&#9;file:///www/workie/vape_parser/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Curl.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="711fa62d-40ec-4a6c-b2b2-13b76b7035ee" name="Default" comment="" />
+      <created>1509003758292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509003758292</updated>
+      <workItem from="1509003760542" duration="15147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15147000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44805875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/openssl/openssl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="1057" column="9" lean-forward="false" selection-start-line="1057" selection-start-column="9" selection-end-line="1057" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Parser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kint-php/kint/src/Kint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <folding>
+            <element signature="n#dump#0;n#Kint#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kint-php/kint/init_helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/AbstractNode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="363" column="20" lean-forward="false" selection-start-line="363" selection-start-column="20" selection-end-line="363" selection-end-column="20" />
+          <folding>
+            <element signature="e#7708#8079#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="214" column="20" lean-forward="false" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+          <folding>
+            <element signature="e#3057#3350#0#PHP" expanded="true" />
+            <element signature="e#3558#4021#0#PHP" expanded="true" />
+            <element signature="e#4442#4577#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-659">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="n#getLoader#0;n#ComposerAutoloaderInitecd4bbd0df1c3b8e7fc5f9bdb8aa0c9a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="766" column="58" lean-forward="false" selection-start-line="766" selection-start-column="58" selection-end-line="766" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/papiroska_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="n#first_child#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
+            <element signature="n#find#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
+            <element signature="n#parse_selector#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#simple_html_dom#0;n#!!top" expanded="true" />
+            <element signature="n#find#0;n#simple_html_dom#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <marker date="1509020767004" expanded="true" signature="4645:4836" ph="..." />
+            <marker date="1509020767004" expanded="true" signature="4653:4763" ph="..." />
+            <marker date="1509020767004" expanded="true" signature="4771:4828" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
