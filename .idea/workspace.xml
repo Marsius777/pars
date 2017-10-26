@@ -13,13 +13,40 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <executablePath>composer</executablePath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="vape_parser@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="vape_parser@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="vape_parser" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="vape_parser@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="vape_parser" type="e3449647:DbNodeDescriptor" />
+        <item name="papiroska" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="-20">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -28,79 +55,9 @@
       <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload_real.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-659">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="n#getLoader#0;n#ComposerAutoloaderInitecd4bbd0df1c3b8e7fc5f9bdb8aa0c9a#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="214" column="20" lean-forward="false" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
-              <folding>
-                <element signature="e#3057#3350#0#PHP" expanded="true" />
-                <element signature="e#3558#4021#0#PHP" expanded="true" />
-                <element signature="e#4442#4577#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractNode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/AbstractNode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="363" column="20" lean-forward="false" selection-start-line="363" selection-start-column="20" selection-end-line="363" selection-end-column="20" />
-              <folding>
-                <element signature="e#7708#8079#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="openssl.php" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/openssl/openssl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="1057" column="9" lean-forward="false" selection-start-line="1057" selection-start-column="9" selection-end-line="1057" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Curl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Curl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kint.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/kint-php/kint/src/Kint.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-              <folding>
-                <element signature="n#dump#0;n#Kint#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -109,44 +66,27 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <caret line="52" column="47" lean-forward="true" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
               <folding>
-                <marker date="1509020767004" expanded="true" signature="4645:4836" ph="..." />
-                <marker date="1509020767004" expanded="true" signature="4653:4763" ph="..." />
-                <marker date="1509020767004" expanded="true" signature="4771:4828" ph="..." />
+                <marker date="1509029044400" expanded="true" signature="6424:6615" ph="..." />
+                <marker date="1509029044400" expanded="true" signature="6432:6542" ph="..." />
+                <marker date="1509029044400" expanded="true" signature="6550:6607" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init_helpers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/kint-php/kint/init_helpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding />
+      <file leaf-file-name="papiroska" pinned="false" current-in-tab="false">
+        <entry file="das://table:/646a8ea3/e5d96c1e-2d1d-4a96-9d61-768862222d55/vape_parser.papiroska">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple_html_dom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-              <folding>
-                <element signature="n#first_child#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
-                <element signature="n#find#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
-                <element signature="n#parse_selector#0;n#simple_html_dom_node#0;n#!!top" expanded="true" />
-                <element signature="n#__construct#0;n#simple_html_dom#0;n#!!top" expanded="true" />
-                <element signature="n#find#0;n#simple_html_dom#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/composer.json">
+      <file leaf-file-name="console_3.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5d96c1e-2d1d-4a96-9d61-768862222d55/console_3.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -155,45 +95,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="standard_1.php" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <file leaf-file-name="standard_8.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="766" column="58" lean-forward="false" selection-start-line="766" selection-start-column="58" selection-end-line="766" selection-end-column="58" />
+            <state relative-caret-position="165">
+              <caret line="1058" column="9" lean-forward="false" selection-start-line="1058" selection-start-column="9" selection-end-line="1058" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json.php" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
+      <file leaf-file-name="db.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/sergeytsalkov/meekrodb/db.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="papiroska_result.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/papiroska_result.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="573">
+              <caret line="186" column="36" lean-forward="false" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
+              <folding>
+                <element signature="e#6#749#0#PHP" expanded="true" />
+                <element signature="n#getMDB#0;n#DB#0;n#!!top" expanded="true" />
+                <element signature="n#debugMode#0;n#DB#0;n#!!top" expanded="true" />
+                <element signature="n#__construct#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#disconnect#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#nonSQLError#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#debugMode#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#setDB#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#startTransaction#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#commit#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#rollback#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#formatTableName#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#update#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#insertOrReplace#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#insertUpdate#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#delete#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#sqleval#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#columnList#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#tableList#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#preparseQueryParams#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#sanitize#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#parseTS#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#intval#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#parseQueryParams#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#queryHelper#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#queryFirstRow#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#queryFirstList#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#queryFirstColumn#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#queryOneColumn#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#queryFirstField#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#queryOneField#0;n#MeekroDB#0;n#!!top" expanded="true" />
+                <element signature="n#__construct#0;n#WhereClause#0;n#!!top" expanded="true" />
+                <element signature="n#add#0;n#WhereClause#0;n#!!top" expanded="true" />
+                <element signature="n#negateLast#0;n#WhereClause#0;n#!!top" expanded="true" />
+                <element signature="n#negate#0;n#WhereClause#0;n#!!top" expanded="true" />
+                <element signature="n#addClause#0;n#WhereClause#0;n#!!top" expanded="true" />
+                <element signature="n#count#0;n#WhereClause#0;n#!!top" expanded="true" />
+                <element signature="n#textAndArgs#0;n#WhereClause#0;n#!!top" expanded="true" />
+                <element signature="n#__construct#0;n#DBTransaction#0;n#!!top" expanded="true" />
+                <element signature="n#__destruct#0;n#DBTransaction#0;n#!!top" expanded="true" />
+                <element signature="n#commit#0;n#DBTransaction#0;n#!!top" expanded="true" />
+                <element signature="n#__construct#0;n#MeekroDBException#0;n#!!top" expanded="true" />
+                <element signature="n#verticalSlice#0;n#DBHelper#0;n#!!top" expanded="true" />
+                <element signature="n#reIndex#0;n#DBHelper#0;n#!!top" expanded="true" />
+                <element signature="n#__construct#0;n#MeekroDBEval#0;n#!!top" expanded="true" />
+                <marker date="1402958422000" expanded="true" signature="15005:15060" ph="INSERT INTO " />
+                <marker date="1402958422000" expanded="true" signature="15267:15319" ph="INSERT INTO " />
+                <marker date="1402958422000" expanded="true" signature="16834:16859" ph="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,6 +173,11 @@
       <find>\/\/ Один поставщик\n\$categoryHtml \= file_get_html\(\$siteUrl \. \'\/category\/greenfog\-italian\-tobacco\/\'\)\;\n\$items \= \$html\-\&gt;find\(\'div\.pr\-title a\'\)\;\n  \/\/Ссылка на каждую жижу\nforeach \(\$items as \$itemUrl\) \{\n\	\$html \= file_get_html\(\$siteUrl \. \$itemUrl\)\;\n\	\$eJuice \= \$eJuicePreset\;\n\	\/\/Берем данные\n\	\$name \= \$html\-\&gt;find\(\'\.card\-desc span\'\, 0\)\;\n\	if \(count\(\$name\) \&gt; 0\)\n\	\	\$eJuice\[\'name\'\] \= \$name\-\&gt;innertext\; \/\/Название\n\	\$img \= \$html\-\&gt;find\(\'\.product\-card a\.prd_image img\'\, 0\)\;\n\	if \(count\(\$img\) \&gt; 0\)\n\	\	\$eJuice\[\'img\'\] \= \$img\-\&gt;src\; \/\/Картинка\n\	\$price \= \$html\-\&gt;find\(\'\.product\-price\-value\'\, 0\)\;\n\	if \(count\(\$price\) \&gt; 0\)\n\	\	\$eJuice\[\'price\'\] \= \$price\-\&gt;innertext\; \/\/Цена\n\	\n\	\$optionsCount \= \$html\-\&gt;find\(\'div\.options \.sku\-feature\'\)\;\n\	\n\	if \(count\(\$optionsCount\) \&gt; 0\) \{\n\	\	if \(count\(\$optionsCount\) \=\= 1\) \{\n\	\	\	\$amounts \= \$html\-\&gt;find\(\'div\.options \.sku\-feature option\'\)\;\n\	\	\	if \(count\(\$amounts\) \&gt; 0\)\n\	\	\	\	foreach \(\$amounts as \$amount\)\n\	\	\	\	\	\$eJuice\[\'amounts\'\]\[\'ob\'\]\[\] \= \$amount\-\&gt;innertext\; \/\/Объемы\n\	\	\} elseif \(count\(\$optionsCount\) \=\= 2\) \{\n\	\	\	\$nic \= \$html\-\&gt;find\(\'div\.options \.sku\-feature\'\, 0\)\-\&gt;children\;\n\	\	\	if \(count\(\$nic\) \&gt; 0\)\n\	\	\	\	foreach \(\$nic as \$n\)\n\	\	\	\	\	\$eJuice\[\'amounts\'\]\[\'nic\'\]\[\] \= \$n\-\&gt;innertext\; \/\/Никотин\n\	\	\	\n\	\	\	\$ob \= \$html\-\&gt;find\(\'div\.options \.sku\-feature\'\, 1\)\-\&gt;children\;\n\	\	\	if \(count\(\$ob\) \&gt; 0\)\n\	\	\	\	foreach \(\$ob as \$o\)\n\	\	\	\	\	\$eJuice\[\'amounts\'\]\[\'ob\'\]\[\] \= \$o\-\&gt;innertext\; \/\/Объемы\n\	\	\}\n\	\}\n\	\n\	\n\	\$rateCount \= \$html\-\&gt;find\(\'div\.rate\-amount\'\, 0\)\;\n\	if \(count\(\$rateCount\) \&gt; 0\)\n\	\	\$eJuice\[\'rate\'\]\[\'count\'\] \= str_replace\(\[\'\(\'\, \'\)\'\]\, \'\'\, trim\(\$rateCount\-\&gt;innertext\)\)\; \/\/Рейтинг кол\-во участников\n\	\$rateValue \= \$html\-\&gt;find\(\'meta\[itemprop\=ratingValue\]\'\, 0\)\;\n\	if \(count\(\$rateValue\) \&gt; 0\)\n\	\	\$eJuice\[\'rate\'\]\[\'value\'\] \= \$rateValue\-\&gt;content\; \/\/Рейтинг звезд\n\	\n\	\n\}</find>
       <find>$html</find>
       <find>first_child</find>
+      <find>n insert(</find>
+      <find>mysq</find>
+      <find>insert</find>
+      <find>mysqli_</find>
+      <find>set_c</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -223,8 +194,12 @@
         <option value="$PROJECT_DIR$/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Curl.php" />
         <option value="$PROJECT_DIR$/app/Parser.php" />
         <option value="$PROJECT_DIR$/vendor/kint-php/kint/init_helpers.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/papiroska_result.txt" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e5d96c1e-2d1d-4a96-9d61-768862222d55/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e5d96c1e-2d1d-4a96-9d61-768862222d55/console_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e5d96c1e-2d1d-4a96-9d61-768862222d55/console_3.sql" />
+        <option value="$PROJECT_DIR$/db.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -242,6 +217,7 @@
       <path value="$PROJECT_DIR$/vendor/paquettg/php-html-parser" />
       <path value="$PROJECT_DIR$/vendor/kint-php/kint" />
       <path value="$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom" />
+      <path value="$PROJECT_DIR$/vendor/sergeytsalkov/meekrodb" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -290,6 +266,13 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="SearchEverywhereHistoryKey" value="PHPHtmlParser/Curl.php&#9;FILE&#9;file:///www/workie/vape_parser/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Curl.php" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -321,12 +304,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509003758292</updated>
-      <workItem from="1509003760542" duration="15147000" />
+      <workItem from="1509003760542" duration="20674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15147000" />
+    <option name="totallyTimeSpent" value="20674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,16 +324,17 @@
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44805875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24653149" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -401,7 +385,7 @@
         <state relative-caret-position="132">
           <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
           <folding>
-            <element signature="n#dump#0;n#Kint#0;n#!!top" expanded="true" />
+            <element signature="n#dump#0;n#Kint#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -419,7 +403,7 @@
         <state relative-caret-position="299">
           <caret line="363" column="20" lean-forward="false" selection-start-line="363" selection-start-column="20" selection-end-line="363" selection-end-column="20" />
           <folding>
-            <element signature="e#7708#8079#0#PHP" expanded="true" />
+            <element signature="e#7708#8079#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -429,18 +413,10 @@
         <state relative-caret-position="299">
           <caret line="214" column="20" lean-forward="false" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
           <folding>
-            <element signature="e#3057#3350#0#PHP" expanded="true" />
-            <element signature="e#3558#4021#0#PHP" expanded="true" />
-            <element signature="e#4442#4577#0#PHP" expanded="true" />
+            <element signature="e#3057#3350#0#PHP" expanded="false" />
+            <element signature="e#3558#4021#0#PHP" expanded="false" />
+            <element signature="e#4442#4577#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -449,7 +425,7 @@
         <state relative-caret-position="-659">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
-            <element signature="n#getLoader#0;n#ComposerAutoloaderInitecd4bbd0df1c3b8e7fc5f9bdb8aa0c9a#0;n#!!top" expanded="true" />
+            <element signature="n#getLoader#0;n#ComposerAutoloaderInitecd4bbd0df1c3b8e7fc5f9bdb8aa0c9a#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -473,34 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="766" column="58" lean-forward="false" selection-start-line="766" selection-start-column="58" selection-end-line="766" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/papiroska_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -519,14 +471,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af90371a-8494-47e0-a393-d4fde0572f53/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/papiroska_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4547" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5d96c1e-2d1d-4a96-9d61-768862222d55/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/646a8ea3/e5d96c1e-2d1d-4a96-9d61-768862222d55/vape_parser.papiroska">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5d96c1e-2d1d-4a96-9d61-768862222d55/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5d96c1e-2d1d-4a96-9d61-768862222d55/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="1058" column="9" lean-forward="false" selection-start-line="1058" selection-start-column="9" selection-end-line="1058" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sergeytsalkov/meekrodb/db.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="186" column="36" lean-forward="false" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
+          <folding>
+            <element signature="e#6#749#0#PHP" expanded="true" />
+            <element signature="n#getMDB#0;n#DB#0;n#!!top" expanded="true" />
+            <element signature="n#debugMode#0;n#DB#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#disconnect#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#nonSQLError#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#debugMode#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#setDB#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#startTransaction#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#commit#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#rollback#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#formatTableName#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#update#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#insertOrReplace#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#insertUpdate#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#delete#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#sqleval#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#columnList#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#tableList#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#preparseQueryParams#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#sanitize#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#parseTS#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#intval#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#parseQueryParams#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#queryHelper#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#queryFirstRow#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#queryFirstList#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#queryFirstColumn#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#queryOneColumn#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#queryFirstField#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#queryOneField#0;n#MeekroDB#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#WhereClause#0;n#!!top" expanded="true" />
+            <element signature="n#add#0;n#WhereClause#0;n#!!top" expanded="true" />
+            <element signature="n#negateLast#0;n#WhereClause#0;n#!!top" expanded="true" />
+            <element signature="n#negate#0;n#WhereClause#0;n#!!top" expanded="true" />
+            <element signature="n#addClause#0;n#WhereClause#0;n#!!top" expanded="true" />
+            <element signature="n#count#0;n#WhereClause#0;n#!!top" expanded="true" />
+            <element signature="n#textAndArgs#0;n#WhereClause#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#DBTransaction#0;n#!!top" expanded="true" />
+            <element signature="n#__destruct#0;n#DBTransaction#0;n#!!top" expanded="true" />
+            <element signature="n#commit#0;n#DBTransaction#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#MeekroDBException#0;n#!!top" expanded="true" />
+            <element signature="n#verticalSlice#0;n#DBHelper#0;n#!!top" expanded="true" />
+            <element signature="n#reIndex#0;n#DBHelper#0;n#!!top" expanded="true" />
+            <element signature="n#__construct#0;n#MeekroDBEval#0;n#!!top" expanded="true" />
+            <marker date="1402958422000" expanded="true" signature="15005:15060" ph="INSERT INTO " />
+            <marker date="1402958422000" expanded="true" signature="15267:15319" ph="INSERT INTO " />
+            <marker date="1402958422000" expanded="true" signature="16834:16859" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5d96c1e-2d1d-4a96-9d61-768862222d55/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/646a8ea3/e5d96c1e-2d1d-4a96-9d61-768862222d55/vape_parser.papiroska">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <caret line="52" column="47" lean-forward="true" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
           <folding>
-            <marker date="1509020767004" expanded="true" signature="4645:4836" ph="..." />
-            <marker date="1509020767004" expanded="true" signature="4653:4763" ph="..." />
-            <marker date="1509020767004" expanded="true" signature="4771:4828" ph="..." />
+            <marker date="1509029044400" expanded="true" signature="6424:6615" ph="..." />
+            <marker date="1509029044400" expanded="true" signature="6432:6542" ph="..." />
+            <marker date="1509029044400" expanded="true" signature="6550:6607" ph="..." />
           </folding>
         </state>
       </provider>

@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/kint-php/kint" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/paquettg/php-html-parser" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/paquettg/string-encode" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/sergeytsalkov/meekrodb" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/simple-html-dom/simple-html-dom" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -17,6 +18,7 @@
           <root url="file://$MODULE_DIR$/vendor/kint-php/kint" />
           <root url="file://$MODULE_DIR$/vendor/paquettg/php-html-parser" />
           <root url="file://$MODULE_DIR$/vendor/paquettg/string-encode" />
+          <root url="file://$MODULE_DIR$/vendor/sergeytsalkov/meekrodb" />
           <root url="file://$MODULE_DIR$/vendor/simple-html-dom/simple-html-dom" />
         </CLASSES>
         <SOURCES>
@@ -24,6 +26,7 @@
           <root url="file://$MODULE_DIR$/vendor/kint-php/kint" />
           <root url="file://$MODULE_DIR$/vendor/paquettg/php-html-parser" />
           <root url="file://$MODULE_DIR$/vendor/paquettg/string-encode" />
+          <root url="file://$MODULE_DIR$/vendor/sergeytsalkov/meekrodb" />
           <root url="file://$MODULE_DIR$/vendor/simple-html-dom/simple-html-dom" />
         </SOURCES>
       </library>

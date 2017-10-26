@@ -6,6 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'DB' => $vendorDir . '/sergeytsalkov/meekrodb/db.class.php',
+    'DBHelper' => $vendorDir . '/sergeytsalkov/meekrodb/db.class.php',
+    'DBTransaction' => $vendorDir . '/sergeytsalkov/meekrodb/db.class.php',
     'Kint' => $vendorDir . '/kint-php/kint/src/Kint.php',
     'Kint_Object' => $vendorDir . '/kint-php/kint/src/Object.php',
     'Kint_Object_Blob' => $vendorDir . '/kint-php/kint/src/Object/Blob.php',
@@ -83,6 +86,10 @@ return array(
     'Kint_Renderer_Text_Recursion' => $vendorDir . '/kint-php/kint/src/Renderer/Text/Recursion.php',
     'Kint_Renderer_Text_Trace' => $vendorDir . '/kint-php/kint/src/Renderer/Text/Trace.php',
     'Kint_SourceParser' => $vendorDir . '/kint-php/kint/src/SourceParser.php',
+    'MeekroDB' => $vendorDir . '/sergeytsalkov/meekrodb/db.class.php',
+    'MeekroDBEval' => $vendorDir . '/sergeytsalkov/meekrodb/db.class.php',
+    'MeekroDBException' => $vendorDir . '/sergeytsalkov/meekrodb/db.class.php',
+    'WhereClause' => $vendorDir . '/sergeytsalkov/meekrodb/db.class.php',
     'simple_html_dom' => $vendorDir . '/simple-html-dom/simple-html-dom/simple_html_dom.php',
     'simple_html_dom_node' => $vendorDir . '/simple-html-dom/simple-html-dom/simple_html_dom.php',
 );

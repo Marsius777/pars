@@ -13,6 +13,7 @@
     {
       "paquettg/php-html-parser": "1.7.0",
       "kint-php/kint": "2.2",
+      "sergeytsalkov/meekrodb": "v2.3",
       "simple-html-dom/simple-html-dom": "1.5.0"
     },
   "repositories":

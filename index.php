@@ -6,38 +6,66 @@ mb_internal_encoding("UTF-8");
 
 require __DIR__  . '/vendor/autoload.php';
 
-$start = false;
-$debug = true;
+DB::$user = 'root';
+DB::$password = 'root';
+DB::$dbName = 'vape_parser';
+DB::$encoding = 'utf8';
 
+$start = 1;
+$debug = true;
 
 $siteUrl = 'https://xn--80aaxitdbjk.xn--p1ai';
 $eJuices = [];
 $json = '';
 $eJuicePreset = ['name' => '', 'img' => '', 'price' => '', 'amounts' => ['nic' => [], 'ob' => []], 'rate' => []];
 
+$i = $j = 0;
 
 if ($start) {
 	$instance = new simple_html_dom();
 	
-
 	// Все поставщики жиж
 	$html = file_get_html($siteUrl . '/category/zhidkosti-dlya-elektronnykh-sigaret/');
 	$firms = $html->find('ul.submenu a');
 	// Парсим каждого поставщика
 	foreach ($firms as $firm) {
-		$firmName = str_replace('Жидкости для электронных сигарет ', '', $firm->title);
+		
+		$j = 0;
+		$i++;
+		if ($debug && $i > 15) break;
+		$firmName = trim(str_replace(['Жидкости для электронных сигарет ', 'Жидкость для электронных сигарет '], '', $firm->title));
+		
+		if ($firmName != 'Министерство правды') continue;
 		
 		// Один поставщик
 		$categoryHtml = file_get_html($siteUrl . $firm->href);
 		$items = $categoryHtml->find('div.pr-title a');
 		//Парсим каждую жижу
 		foreach ($items as $itemUrl) {
+			$j++;
+			if ($debug && $j > 3) break;
 			$itemHtml = file_get_html($siteUrl . $itemUrl->href);
 			$eJuice = $eJuicePreset;
 			//Берем данные
 			$name = $itemHtml->find('.card-desc span', 0);
+			$excludeStrings = [
+				$firmName,
+				'(жидкость для электронных сигарет).',
+				'Жидкость',
+				' - ',
+				'(',
+				')',
+				'"'
+			];
+			
 			if (count($name) > 0)
-				$eJuice['name'] = str_replace(' - ' . $firmName, '', $name->innertext); //Название
+				$eJuice['name'] = trim(str_replace($excludeStrings, '', $name->innertext)); //Название
+			else {
+				$name = $itemHtml->find('.card-left h1.title', 0);
+				if (count($name) > 0)
+					$eJuice['name'] = trim(str_replace($excludeStrings, '', $name->innertext)); //Название
+			}
+			
 			$img = $itemHtml->find('.product-card a.prd_image img', 0);
 			if (count($img) > 0)
 				$eJuice['img'] = substr($img->src, 2); //Картинка url
@@ -52,17 +80,17 @@ if ($start) {
 					$amounts = $itemHtml->find('div.options .sku-feature option');
 					if (count($amounts) > 0)
 						foreach ($amounts as $amount)
-							$eJuice['amounts']['ob'][] = $amount->innertext; //Объемы
+							$eJuice['amounts']['ob'][] = str_replace('мл', '', $amount->innertext); //Объемы
 				} elseif (count($optionsCount) == 2) {
 					$nic = $itemHtml->find('div.options .sku-feature', 0)->children;
 					if (count($nic) > 0)
 						foreach ($nic as $n)
-							$eJuice['amounts']['nic'][] = $n->innertext; //Никотин
+							$eJuice['amounts']['nic'][] = str_replace('мг', '', $n->innertext); //Никотин
 					
 					$ob = $itemHtml->find('div.options .sku-feature', 1)->children;
 					if (count($ob) > 0)
 						foreach ($ob as $o)
-							$eJuice['amounts']['ob'][] = $o->innertext; //Объемы
+							$eJuice['amounts']['ob'][] = str_replace('мл', '', $o->innertext); //Объемы
 				}
 			}
 			
@@ -75,29 +103,54 @@ if ($start) {
 			
 			$eJuices[$firmName][] = $eJuice;
 			
+			
+			/*
+					firmName   VARCHAR(50)       NULL,
+					juiceName  VARCHAR(50)       NULL,
+					price      FLOAT DEFAULT '0' NULL,
+					image      VARCHAR(100)      NULL,
+					sizes      VARCHAR(200)      NULL,
+					nicotines  VARCHAR(200)      NULL,
+					rate_value FLOAT DEFAULT '0' NULL,
+					rate_count INT DEFAULT '0'   NULL,
+			 */
+			$insertData = [
+				'firmName'   => $firmName,
+				'juiceName'  => $eJuice['name'],
+				'price'      => (float) $eJuice['price'],
+				'image'      => $eJuice['img'],
+			];
+			
+			if (isset($eJuice['amounts']['ob']) && $eJuice['amounts']['ob'])
+				$insertData['sizes'] = json_encode($eJuice['amounts']['ob']);
+			if (isset($eJuice['amounts']['nic']) && $eJuice['amounts']['nic'])
+				$insertData['nicotines'] = json_encode($eJuice['amounts']['nic']);
+			if (isset($eJuice['rate']['count']) && $eJuice['rate']['count'])
+				$insertData['rate_count'] = $eJuice['rate']['count'];
+			if (isset($eJuice['rate']['value']) && $eJuice['rate']['value'])
+				$insertData['rate_value'] = (float) $eJuice['rate']['value'];
+			
+			DB::insert('papiroska', $insertData);
+			
 			echo 'processed: ' . $eJuice['name'] . "\n";
 			
-			if ($debug) break;
+			//if ($debug) break;
 		}
 		
 		echo '------ FIRM DONE: ' . $firm->href . " ------- \n";
 		
-		if ($debug) break;
+		//if ($debug) break;
 	}
+	
+	$content = json_encode($eJuices, JSON_UNESCAPED_UNICODE);
+	$fp = fopen(__DIR__  . "/papiroska_result.txt","wb");
+	fwrite($fp, $content);
+	fclose($fp);
 }
-
-
-
-//$content = json_encode($eJuices, JSON_UNESCAPED_UNICODE);
-//$fp = fopen(__DIR__  . "/papiroska_result.txt","wb");
-//fwrite($fp, $content);
-//fclose($fp);
 
 $out = file_get_contents(__DIR__  . "/papiroska_result.txt","wb");
 d(json_decode($out, true));
 
-
-d(substr('//asdasas', 2));
 /*
 
 

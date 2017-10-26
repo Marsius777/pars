@@ -28,6 +28,9 @@ class ComposerStaticInitecd4bbd0df1c3b8e7fc5f9bdb8aa0c9a
     );
 
     public static $classMap = array (
+        'DB' => __DIR__ . '/..' . '/sergeytsalkov/meekrodb/db.class.php',
+        'DBHelper' => __DIR__ . '/..' . '/sergeytsalkov/meekrodb/db.class.php',
+        'DBTransaction' => __DIR__ . '/..' . '/sergeytsalkov/meekrodb/db.class.php',
         'Kint' => __DIR__ . '/..' . '/kint-php/kint/src/Kint.php',
         'Kint_Object' => __DIR__ . '/..' . '/kint-php/kint/src/Object.php',
         'Kint_Object_Blob' => __DIR__ . '/..' . '/kint-php/kint/src/Object/Blob.php',
@@ -105,6 +108,10 @@ class ComposerStaticInitecd4bbd0df1c3b8e7fc5f9bdb8aa0c9a
         'Kint_Renderer_Text_Recursion' => __DIR__ . '/..' . '/kint-php/kint/src/Renderer/Text/Recursion.php',
         'Kint_Renderer_Text_Trace' => __DIR__ . '/..' . '/kint-php/kint/src/Renderer/Text/Trace.php',
         'Kint_SourceParser' => __DIR__ . '/..' . '/kint-php/kint/src/SourceParser.php',
+        'MeekroDB' => __DIR__ . '/..' . '/sergeytsalkov/meekrodb/db.class.php',
+        'MeekroDBEval' => __DIR__ . '/..' . '/sergeytsalkov/meekrodb/db.class.php',
+        'MeekroDBException' => __DIR__ . '/..' . '/sergeytsalkov/meekrodb/db.class.php',
+        'WhereClause' => __DIR__ . '/..' . '/sergeytsalkov/meekrodb/db.class.php',
         'simple_html_dom' => __DIR__ . '/..' . '/simple-html-dom/simple-html-dom/simple_html_dom.php',
         'simple_html_dom_node' => __DIR__ . '/..' . '/simple-html-dom/simple-html-dom/simple_html_dom.php',
     );

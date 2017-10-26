@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea18408fb531d3f61037be32110331de",
-    "content-hash": "f4b2e0c312e7c933df2d319cde6e476d",
+    "hash": "5d1fb32e00ec4a90a785d87aaa205994",
+    "content-hash": "2388866bf3f9352970a07c18c167f733",
     "packages": [
         {
             "name": "kint-php/kint",
@@ -159,6 +159,49 @@
                 "string"
             ],
             "time": "2014-05-29 18:38:09"
+        },
+        {
+            "name": "sergeytsalkov/meekrodb",
+            "version": "v2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SergeyTsalkov/meekrodb.git",
+                "reference": "eb36858f1aff94ae1665900e681a1cfb78563ee1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SergeyTsalkov/meekrodb/zipball/eb36858f1aff94ae1665900e681a1cfb78563ee1",
+                "reference": "eb36858f1aff94ae1665900e681a1cfb78563ee1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "db.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Tsalkov",
+                    "email": "stsalkov@gmail.com"
+                }
+            ],
+            "description": "The Simple PHP/MySQL Library",
+            "homepage": "http://www.meekro.com",
+            "keywords": [
+                "database",
+                "mysql",
+                "mysqli",
+                "pdo"
+            ],
+            "time": "2014-06-16 22:40:22"
         },
         {
             "name": "simple-html-dom/simple-html-dom",
