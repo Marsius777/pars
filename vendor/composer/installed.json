@@ -20,7 +20,7 @@
         "require-dev": {
             "phpunit/phpunit": "3.7.*"
         },
-        "time": "2014-05-29 18:38:09",
+        "time": "2014-05-29T18:38:09+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -71,7 +71,7 @@
             "phpunit/phpunit": "~4.8.0",
             "satooshi/php-coveralls": "~0.6.0"
         },
-        "time": "2016-04-06 15:24:40",
+        "time": "2016-04-06T15:24:40+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -121,7 +121,7 @@
             "phpunit/phpunit": "^4.0",
             "symfony/finder": "^2.6"
         },
-        "time": "2017-09-06 17:46:03",
+        "time": "2017-09-06T17:46:03+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -173,7 +173,7 @@
             "reference": "961610576c460546677a635062e9d3d7b6dab745",
             "shasum": ""
         },
-        "time": "2013-05-14 22:27:35",
+        "time": "2013-05-14T22:27:35+00:00",
         "type": "library",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
@@ -206,7 +206,7 @@
         "require": {
             "php": ">=5.2.0"
         },
-        "time": "2014-06-16 22:40:22",
+        "time": "2014-06-16T22:40:22+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {

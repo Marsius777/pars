@@ -1,0 +1,1 @@
+{"nfs":{"/www/pars":{"type":"nfs","guestpath":"/www/pars","hostpath":"/www/pars","disabled":false,"__vagrantfile":true,"map_uid":1000,"map_gid":1000,"nfs_udp":true,"nfs_version":3,"uuid":"2541916197","linux__nfs_options":["rw","no_subtree_check","all_squash","anonuid=1000","anongid=1000","fsid=2541916197"]}}}

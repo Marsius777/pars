@@ -2,22 +2,33 @@
 error_reporting(-1);
 ini_set('display_errors', 'On');
 ini_set('memory_limit', '256M');
-mb_internal_encoding("UTF-8");
 
 require __DIR__  . '/vendor/autoload.php';
 
 DB::$user = 'root';
 DB::$password = 'root';
-DB::$dbName = 'vape_parser';
+DB::$dbName = 'vape_parse';
 DB::$encoding = 'utf8';
 
+// 30, 60, 90, 100, 120 , 200
+/**
+ * @todo span no-buy
+ */
+
 $start = 1;
-$debug = true;
+$debug = 0;
 
 $siteUrl = 'https://xn--80aaxitdbjk.xn--p1ai';
 $eJuices = [];
 $json = '';
 $eJuicePreset = ['name' => '', 'img' => '', 'price' => '', 'amounts' => ['nic' => [], 'ob' => []], 'rate' => []];
+
+$arrContextOptions = [
+	"ssl" => [
+		"verify_peer"      => false,
+		"verify_peer_name" => false,
+	],
+];
 
 $i = $j = 0;
 
@@ -25,7 +36,7 @@ if ($start) {
 	$instance = new simple_html_dom();
 	
 	// Все поставщики жиж
-	$html = file_get_html($siteUrl . '/category/zhidkosti-dlya-elektronnykh-sigaret/');
+	$html = file_get_html($siteUrl . '/category/zhidkosti-dlya-elektronnykh-sigaret/', false, stream_context_create($arrContextOptions));
 	$firms = $html->find('ul.submenu a');
 	// Парсим каждого поставщика
 	foreach ($firms as $firm) {
@@ -35,27 +46,27 @@ if ($start) {
 		if ($debug && $i > 15) break;
 		$firmName = trim(str_replace(['Жидкости для электронных сигарет ', 'Жидкость для электронных сигарет '], '', $firm->title));
 		
-		if ($firmName != 'Министерство правды') continue;
-		
 		// Один поставщик
-		$categoryHtml = file_get_html($siteUrl . $firm->href);
+		$categoryHtml = file_get_html($siteUrl . $firm->href, false, stream_context_create($arrContextOptions));
 		$items = $categoryHtml->find('div.pr-title a');
 		//Парсим каждую жижу
 		foreach ($items as $itemUrl) {
 			$j++;
 			if ($debug && $j > 3) break;
-			$itemHtml = file_get_html($siteUrl . $itemUrl->href);
+			$itemHtml = file_get_html($siteUrl . $itemUrl->href, false, stream_context_create($arrContextOptions));
 			$eJuice = $eJuicePreset;
 			//Берем данные
 			$name = $itemHtml->find('.card-desc span', 0);
 			$excludeStrings = [
 				$firmName,
-				'(жидкость для электронных сигарет).',
+				'жидкость',
 				'Жидкость',
+				' для электронных сигарет',
 				' - ',
 				'(',
 				')',
-				'"'
+				'"',
+				'.'
 			];
 			
 			if (count($name) > 0)
@@ -115,10 +126,11 @@ if ($start) {
 					rate_count INT DEFAULT '0'   NULL,
 			 */
 			$insertData = [
-				'firmName'   => $firmName,
-				'juiceName'  => $eJuice['name'],
+				'firmName'   => mb_strtolower($firmName),
+				'juiceName'  => mb_strtolower($eJuice['name']),
 				'price'      => (float) $eJuice['price'],
 				'image'      => $eJuice['img'],
+				'url'        => $siteUrl . $itemUrl->href
 			];
 			
 			if (isset($eJuice['amounts']['ob']) && $eJuice['amounts']['ob'])
@@ -137,7 +149,7 @@ if ($start) {
 			//if ($debug) break;
 		}
 		
-		echo '------ FIRM DONE: ' . $firm->href . " ------- \n";
+		echo '------ FIRM DONE: ' . $firmName . " ------- \n";
 		
 		//if ($debug) break;
 	}

@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="vape_parser@localhost" uuid="e5d96c1e-2d1d-4a96-9d61-768862222d55">
-      <database-info product="MySQL" version="5.5.58-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+    <data-source name="vape_parse@localhost" uuid="8716fc3f-74fb-4788-9d97-a9a2cc9b3161">
+      <database-info product="MySQL" version="5.7.8-rc" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:vape_parser</introspection-schemas>
+      <introspection-schemas>*:vape_parse</introspection-schemas>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <proxy-host>127.0.0.1</proxy-host>
+        <proxy-port>2222</proxy-port>
+        <user>vagrant</user>
+        <use-password>false</use-password>
+        <private-key-path>$USER_HOME$/.vagrant.d/boxes/ncaro-VAGRANTSLASH-php7-debian8-apache-nginx-mysql/1.2.0/virtualbox/vagrant_private_key</private-key-path>
+      </ssh-properties>
     </data-source>
   </component>
 </project>
